@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calendário</title>
+        <link rel="stylesheet" href="dycalendar.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="box">
+            <div class="container">
+            <div id="dycalendar"> </div>
+        </div>
+    </div>    
+        </section>
+        </section>
+        <script src="dycalendar.js"></script>
+        <script>
+            dycalendar.draw({
+                target: '#dycalendar',
+                type: 'month',
+                highlighttargetdate: true,
+                prevnextbutton: 'show'
+            })
+        </script>
+    </body>
